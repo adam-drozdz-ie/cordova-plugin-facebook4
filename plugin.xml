@@ -71,6 +71,9 @@
         </config-file>
 
         <framework src="com.facebook.android:facebook-android-sdk:$FACEBOOK_ANDROID_SDK_VERSION"/>
+        <framework src="FBSDKCoreKit" type="podspec" spec="5.15.0" />
+        <framework src="FBSDKLoginKit" type="podspec" spec="5.15.0" />
+        <framework src="FBSDKShareKit" type="podspec" spec="5.15.0" />
 
         <!-- cordova plugin src files -->
         <source-file src="src/android/ConnectPlugin.java" target-dir="src/org/apache/cordova/facebook" />
